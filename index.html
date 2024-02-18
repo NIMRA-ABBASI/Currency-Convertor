@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+        <div class="main-container">
+            <h1>Currency Convertor</h1>
+            <form>
+                <div class="amount">
+                    <p>Enter Amount</p>
+                    <input type="text" value="1">
+                </div>
+
+                <div class="dropdown">
+                    <div class="box from">
+                        <p>From</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/PK/flat/64.png">
+                            <select name="from">
+                               
+                            </select>
+                        </div>
+                    </div>
+
+                    <i class="fas fa-exchange-alt" style="font-size: 1.5rem;"></i>
+
+                    <div class="box to">
+                        <p>To</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/GB/flat/64.png">
+                            <select name="To">
+                               
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div><p class="msg">1 PKR = 0.0036 USD </p></div>
+                <button>Get Exchange Rate</button>
+            </form>
+        </div>
+
+    <script src="codes.js"></script> 
+    <script src="main.js"></script>
+
+</body>
+
+</html>
